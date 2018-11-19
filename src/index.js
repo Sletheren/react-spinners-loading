@@ -46,7 +46,7 @@ class Loader extends Component {
         { dismissible && <a href="#" className={fullscreen ? "close" : "mini-close"} onClick={this.close}/> }
         <div className="preset">
           { animation ?
-            <img src={'./src/presets/'+animation+'.svg'} style={svgStyle}/>
+            <img src={require('./presets/'+animation+'.svg')} style={svgStyle}/>
             : <img src={imageUrl || Spinner} style={svgStyle}/>
           }
         </div>
