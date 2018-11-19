@@ -1,5 +1,5 @@
 {
-  "name": "react-loading-spinners",
+  "name": "react-spinners-loading",
   "version": "1.0.0",
   "description": "A totally customizable component for loading spinners/animation for your react project, it can serve as document loader (full screen), specific block loading animation and more, it has presets and accept your own assets as spinners",
   "author": "Abdelghafour Rakhma",

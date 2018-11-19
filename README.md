@@ -1,11 +1,11 @@
-# React Loading Spinners [![Version](https://img.shields.io/npm/v/react-loading-spinners.svg)](https://www.npmjs.com/package/react-loading-spinners)
+# React Loading Spinners [![Version](https://img.shields.io/npm/v/react-spinners-loading.svg)](https://www.npmjs.com/package/react-spinners-loading)
 
 A Highly Customizable React component to help you with loaders/spinners for specific part of your project or as a project loading, with built-in presets and the ability of using your own assets.
 ## Online Demo
 
-![Screenshots](https://raw.githubusercontent.com/Sletheren/react-loading-spinners/master/examples/src/example.gif)
+![Screenshots](https://raw.githubusercontent.com/Sletheren/react-spinners-loading/master/examples/src/example.gif)
 
-You can check out this little demo to get the feel of it: [Online demo](https://sletheren.github.io/react-loading-spinners/)
+You can check out this little demo to get the feel of it: [Online demo](https://sletheren.github.io/react-spinners-loading/)
 
 ## Get started
 
@@ -16,13 +16,13 @@ It's very easy to use the tool, follow the instructions
 Install the package using npm
 
 ```
-npm i react-loading-spinners 
+npm i react-spinners-loading 
 ```
 
 ### Import the package into your react app
 
 ```
-import Loader from 'react-loading-spinners'
+import Loader from 'react-spinners-loading'
 ```
 
 ### Pass the configuration props:
