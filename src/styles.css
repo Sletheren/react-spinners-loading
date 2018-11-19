@@ -1,0 +1,63 @@
+.loader {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.loader.fullscreen {
+  position: fixed;
+  width: 100%;
+  top:0; right:0; bottom:0; left: 0;
+  background-color: rgba(0, 0, 0, 0.7)
+}
+.loader > .loader-text {
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+}
+.loader > .close {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  width: 30px;
+  height: 30px;
+  opacity: 0.3;
+}
+.loader > .mini-close {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+}
+.loader > .close:hover, .loader > .mini-close:hover {
+  opacity: 1;
+}
+.loader > .close:before, .loader > .close:after{
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 30px;
+  width: 2px;
+  background-color: #fafafa;
+}
+.loader > .mini-close:before, .loader > .mini-close:after {
+  position: absolute;
+  left: 10px;
+  top: 5px;
+  content: ' ';
+  height: 10px;
+  width: 1px;
+  background-color: #fafafa;
+}
+.loader > .close:before, .loader > .mini-close:before {
+  transform: rotate(45deg);
+}
+.loader > .close:after, .loader > .mini-close:after {
+  transform: rotate(-45deg);
+}
