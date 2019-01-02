@@ -1,6 +1,6 @@
 {
   "name": "react-spinners-loading",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A totally customizable component for loading spinners/animation for your react project, it can serve as document loader (full screen), specific block loading animation and more, it has presets and accept your own assets as spinners",
   "author": "Abdelghafour Rakhma",
   "keywords": [
@@ -17,7 +17,7 @@
     "type": "git",
     "url": "https://github.com/Sletheren/react-loading-spinners.git"
   },
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --mode development",
